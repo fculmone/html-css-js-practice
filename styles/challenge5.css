@@ -1,0 +1,107 @@
+p {
+  font-family: Arial;
+}
+
+.a-new {
+  text-align: center;
+  color: rgb(219,120,70);
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.a-pro {
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 4px;
+}
+
+.a-for-pros {
+  margin-top: 0px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 55px;
+  margin-bottom: 0px;
+}
+
+.a-from {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.a-buy {
+  color: white;
+  background-color: rgb(49,111,221);
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 100px;
+}
+
+.a-div {
+  text-align: center;
+}
+
+
+.b-money {
+  font-size: 50px;
+  margin-bottom: 12px;
+}
+
+.b-usd {
+  margin-top: 0px;
+  font-size: 25px;
+  color: rgb(94, 94, 94);
+  font-weight:600px;
+}
+
+.b-increase {
+  margin-top: 0px;
+  font-size: 24px;
+  color: green;
+  margin-bottom: 12px;
+}
+
+.b-after-hours {
+  margin-top: 0;
+  color: rgb(97, 97, 97);
+  font-size: 24px;
+  margin-bottom: 70px;
+}
+
+.b-decrease {
+  color: red;
+}
+
+.c-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.c-gray {
+  color: rgb(95, 95, 95);
+  font-weight: normal;
+}
+
+.c-text {
+  margin-top: 0px;
+  font-size: 20px;
+  width: 700px;
+}
+
+.c-username {
+  color: rgb(0, 162, 255);
+}
