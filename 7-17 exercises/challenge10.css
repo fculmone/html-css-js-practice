@@ -1,0 +1,43 @@
+.f-pic {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  object-position: center;
+  margin-top: 0px;
+}
+
+.f-name {
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 8px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+
+.f-friends {
+  margin-top: 4px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  font-family: Arial;
+  color: rgb(100, 100, 100);
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.f-button {
+  margin-top: 14px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-size: 17px;
+  color: white;
+  background-color: rgb(52, 122, 212);
+  border-style: none;
+  border-radius: 6px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+

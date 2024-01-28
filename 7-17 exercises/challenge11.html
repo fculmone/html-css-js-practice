@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Challege 10</title>
+    <style>
+      .f {
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+
+      .horizontal {
+        height: 30px;
+      }
+
+      .mutual-pfp {
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+        object-fit: cover;
+        object-position: center;
+        margin-left: 10px;
+        vertical-align: center;
+        margin-top: 6px;
+      }
+
+      .f-pic {
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        margin-top: 0px;
+      }
+
+      .f-name {
+        font-family: Arial;
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 8px;
+        margin-left: 10px;
+        margin-bottom: 0px;
+      }
+
+      .f-friends {
+        font-family: Arial;
+        color: rgb(100, 100, 100);
+        vertical-align: top;
+        margin-bottom: 0px;
+        margin-top: 12px;
+      }
+
+      .f-button {
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        font-size: 17px;
+        color: white;
+        background-color: rgb(52, 122, 212);
+        border-style: none;
+        border-radius: 6px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="
+      display: grid;
+      grid-template-columns: 200px 75px;
+      margin-bottom: 30px;">
+      <div style="background-color: lightblue;">200px</div>
+      <div style="background-color: lightpink;">75px</div>
+    </div>
+
+    <div style="
+      display: grid;
+      grid-template-columns: 50px 1fr 75px;
+      margin-bottom: 30px;">
+      <div style="background-color: lightblue;">col1</div>
+      <div style="background-color: lightpink;">col2</div>
+      <div style="background-color: lightblue;">col3</div>
+    </div>
+
+    <div style="
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      column-gap: 20px; row-gap: 10px; margin-bottom: 30px;">
+      <div style="background-color: lightpink;">col1</div>
+      <div style="background-color: lightpink;">col2</div>
+      <div style="background-color: lightpink;">col3</div>
+      <div style="background-color: lightpink;">col4</div>
+      <div style="background-color: lightpink;">col1</div>
+      <div style="background-color: lightpink;">col2</div>
+      <div style="background-color: lightpink;">col3</div>
+      <div style="background-color: lightpink;">col4</div>
+    </div>
+    
+
+    <div style="
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 20px;">
+      <div class="f">
+        <img class="f-pic" src="cat.webp">
+        <p class="f-name">Oliver</p>
+        <div style="display: grid;
+        grid-template-columns: 50px 1fr;">
+          <div><img class="mutual-pfp" src="dog-pfp.jpg"></div>
+          <div><p class="f-friends">2 mutual friends</p></div>
+        </div>       
+        <button class="f-button">Add Friend</button>
+      </div>
+  
+      <div class="f">
+        <img class="f-pic" src="Ginger_Indoors.jpg">
+        <p class="f-name">Mimi</p>
+        <div style="display: grid;
+        grid-template-columns: 50px 1fr;">
+          <div><img class="mutual-pfp" src="dog-pfp.jpg"></div>
+          <div><p class="f-friends">3 mutual friends</p></div>
+        </div>      
+        <button class="f-button">Add Friend</button>
+      </div>
+  
+      <div class="f">
+        <img class="f-pic" src="dog in jacket.webp">
+        <p class="f-name">Rex</p>
+        <div style="display: grid;
+        grid-template-columns: 50px 1fr;">
+          <div><img class="mutual-pfp" src="dog-pfp.jpg"></div>
+          <div><p class="f-friends">4 mutual friends</p></div>
+        </div>      
+        <button class="f-button">Add Friend</button>
+      </div>
+    </div>
+    
+  </body>
+</html>
