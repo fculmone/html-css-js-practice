@@ -1,0 +1,78 @@
+.gmail-flex {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .14);
+  border-style: none;
+  border-radius: 4px;
+  padding-bottom: 24px;
+  max-width: 420px;
+}
+
+.all-inboxes {
+  font-family: Arial;
+  font-size: 13px;
+  color: gray;
+  margin-top: 13px;
+  margin-left: 16px;
+  margin-bottom: 20px;
+}
+
+.email {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.pfp {
+  object-fit: cover;
+  object-position: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 200px;
+  margin-left: 16px;
+  margin-right: 12px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 3px;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.time {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 14px;
+  font-size: 13px;
+  color: gray;
+  font-family: Arial;
+}
+
+.sale {
+  margin-top: 0;
+  margin-bottom: 3px;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.contents {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Arial;
+  font-size: 15px;
+  color: gray;
+}
